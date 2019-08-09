@@ -13,11 +13,14 @@ fun Application.html() {
         get("/html-dsl") {
             call.respondHtml {
                 head {
-                    title { +"Async World" }
+                    title { +"Ktor Demo" }
                 }
                 body {
-                    h1("title") {
-                        +"Title"
+                    h1 { +"HTML" }
+                    ul {
+                        for (n in 1..10) {
+                            li { +"$n" }
+                        }
                     }
                 }
             }
