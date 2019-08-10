@@ -14,7 +14,7 @@ fun Application.routing(testing: Boolean = false) {
 
     routing {
         // http :8080/foo
-        get("/foo") {
+        get("/") {
             call.respondText("HELLO WORLD!", contentType = ContentType.Text.Plain)
         }
         // Static feature. Try to access `/static/ktor_logo.svg`
