@@ -13,5 +13,5 @@ fun main() {
 
 fun Application.module() {
     configureRouting()
-    configureMongoDB()
+//    configureMongoDB()
 }
