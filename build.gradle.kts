@@ -33,3 +33,7 @@ dependencies {
 tasks {
     create("stage").dependsOn("installDist")
 }
+
+kotlin {
+    jvmToolchain(17)
+}
