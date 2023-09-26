@@ -15,5 +15,3 @@ accept = "127.0.0.1:27019"
 connect = "ac-9b1pdh4-shard-00-02.rkukoja.mongodb.net:27017"
 encrypted = false
 transparent = false
-
-
