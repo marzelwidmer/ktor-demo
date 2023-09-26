@@ -1,0 +1,19 @@
+[qgtunnel.Atlas_MongoDB_00]
+accept = "127.0.0.1:27017"
+connect = "ac-9b1pdh4-shard-00-00.rkukoja.mongodb.net:27017"
+encrypted = false
+transparent = false
+
+[qgtunnel.Atlas_MongoDB_01]
+accept = "127.0.0.1:27018"
+connect = "ac-9b1pdh4-shard-00-01.rkukoja.mongodb.net:27017"
+encrypted = false
+transparent = false
+
+[qgtunnel.Atlas_MongoDB_02]
+accept = "127.0.0.1:27019"
+connect = "ac-9b1pdh4-shard-00-02.rkukoja.mongodb.net:27017"
+encrypted = false
+transparent = false
+
+
